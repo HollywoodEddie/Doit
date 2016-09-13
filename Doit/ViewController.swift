@@ -64,6 +64,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return [ task1, task2, task3]
         
     }
+    @IBAction func plusTapped(sender: AnyObject) {
+        performSegueWithIdentifier("addSegue", sender: nil)
+        
+        
+    }
    
     }
 
